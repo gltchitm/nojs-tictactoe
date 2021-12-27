@@ -46,7 +46,6 @@
                     $turn = $_GET["turn"];
                     $winner = $_GET["winner"];
                     include("views/game.php");
-
                 } else {
                     include("views/welcome.php");
                 }
